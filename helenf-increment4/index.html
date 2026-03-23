@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Helen Fu">
+    <meta name="keywords" content="Museum, Carnegie Mellon University, Information Systems">
+    <meta name="description" content="MonoMuse website redesign project">
+    <title>MonoMuse</title>
+
+    <link rel="stylesheet" href="./static/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="./static/script.js" defer></script>
+ 
+</head>
+
+<div class="container">
+    <body onload="addYear()">
+        <header class="header">
+            <img id="logo" src="./static/monomuse_logo_w.png" alt="MonoMuse Museum Logo">
+        </header>
+
+        <nav class="nav_bar">
+            <a id="navselected" href="./index.html">Home</a>
+            <a href="views/explore.html">Explore</a>
+            <a href="views/exhibitions.html">Exhibitions</a>
+            <a class="cta" href="views/tickets.html">Tickets</a>
+        </nav>
+
+        <figure class="main_figure"><img src="../helenf-increment4/static/monomuse interior.jpg" width="650" alt="Front of MonoMuse Museum"></figure>
+
+        <main class="main">
+
+            <h1 id="greeting">Welcome to Monomuse</h1><br><br>
+
+            <p>Monomuse is a contemporary museum with a goal to explore the intersection of art, technology, and human creativity. 
+            We have immersive exhibitions, interactive installations, and rotating collections, for visitors to discover 
+            how digital innovation is transforming the way we create, experience, and understand art. Whether you are a first-time visitor 
+            or a returning member, our exhibitions offer new perspectives on the role of technology in culture and everyday life. Plan your 
+            visit to experience cutting-edge exhibitions, hands-on experiences, and events designed to inspire curiosity and creativity.
+            </p><br><br><br><br>
+
+            <a class="link" href="views/tickets.html">Buy Tickets</a>
+        </main>
+
+        <footer class="footer"><p id="copyYear"></p></footer>
+    </body>
+</div>
+
+</html>
